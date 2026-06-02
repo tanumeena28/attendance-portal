@@ -1,0 +1,17 @@
+# Exclude sensitive credentials and passwords
+credentials.json
+devices.json
+
+# Exclude logs
+log.txt
+attendance_log.txt
+
+# Exclude generated attendance spreadsheets
+*.xlsx
+
+# Exclude python cache and environment files
+__pycache__/
+venv/
+.venv/
+.idea/
+.vscode/
